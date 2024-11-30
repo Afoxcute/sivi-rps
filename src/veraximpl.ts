@@ -1,7 +1,7 @@
 // Default configuration for Linea Sepolia
 
 // Frontend
-const veraxSdk = new VeraxSdk(VeraxSdk.sivi-rps.vercel.app/);
+// const veraxSdk = new VeraxSdk(VeraxSdk.sivi-rps.vercel.app/);
 // Backend
 const veraxSdk = new VeraxSdk(VeraxSdk.0x2fA171a2F9F579A210516150B44bcE8d720e657A);
 
@@ -15,7 +15,7 @@ const utilsDataMapper = veraxSdk.utils; // Utils
 
 const myPortal = await portalDataMapper.findOneById("0x34798a866f52949208e67fb57ad36244024c50c0");
 
-const mySchema = await schemaDataMapper.findOneById("0xce2647ed39aa89e6d1528a56deb6c30667ed2aae1ec2378ec3140c0c5d98a61e");
+// const mySchema = await schemaDataMapper.findOneById("0xce2647ed39aa89e6d1528a56deb6c30667ed2aae1ec2378ec3140c0c5d98a61e");
 
 const myModule = await moduleDataMapper.findOneById("0x4bb8769e18f1518c35be8405d43d7cc07ecf501c");
 
